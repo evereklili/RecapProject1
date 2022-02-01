@@ -13,5 +13,7 @@ namespace RecapProject1
         //bir nesnem var o şu veritabanında kaşrılık gelri demeliyiz. 
         public DbSet<Product> Products { get; set;}
         public DbSet<Category> Categories { get; set; }
+
+
     }
 }
